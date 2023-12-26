@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" type="text/css">
+
+    <style>
+        .background {
+            background: url('img/bg-masthead.jpg') no-repeat center center;
+            background-size: cover;
+            padding: 150px;
+            position: relative;
+        }
+
+        .background::before {
+            content: "";
+            background-color: #1c375e;
+            opacity: 0.5;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container d-flex justify-content-between">
+            <a class="navbar-brand fw-bold" href="#">Start Bootstrap</a>
+            <button class="btn btn-primary" type="submit">Sign up</button>
+        </div>
+    </nav>
+
+    <header class="background">
+        <div class="w-50 mx-auto text-center position-relative">
+            <div class="row">
+                <h1 class="text-white mb-5" style="font-size: 3rem;">Generate more leads with a professional landing page!</h1>
+            </div>
+
+            <div class="row px-3">
+                <div class="col">
+                    <input type="text" name="" id="" class="form-control fs-4">
+                </div>
+                <div class="col-auto">
+                    <button class="btn btn-primary fs-4" type="submit"> Submit</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="bg-light">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-4 text-center p-5">
+                    <i class="bi-window m-auto text-primary" style="font-size: 5rem;"></i>
+                    <h3>Fully Responsive</h3>
+                    <p class="fs-5 fw-light">This theme will look great on any device, no matter the size!</p>
+                </div>
+                <div class=" col-4 text-center p-5">
+                    <i class="bi-layers m-auto text-primary" style="font-size: 5rem;"></i>
+                    <h3>Bootstrap 5 Ready</h3>
+                    <p class="fs-5 fw-light">Featuring the latest build of the new Bootstrap 5 framework!</p>
+                </div>
+                <div class=" col-4 text-center p-5">
+                    <i class="bi-terminal m-auto text-primary" style="font-size: 5rem;"></i>
+                    <h3>Easy to Use</h3>
+                    <p class="fs-5 fw-light">Ready to use with your own content, or customize the source files!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class=" container-fluid">
+        <div class="row">
+            <div class="col-6 my-auto">
+                <div class="w-75  m-auto">
+                    <h3 class="fw-bold">Fully Responsive Design</h3>
+                    <p class="fs-5 fw-light"> When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!</p>
+                </div>
+            </div>
+            <div class="col-6" style="background: url(img/bg-showcase-1.jpg) no-repeat; background-size: cover; height: 400px;"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-6" style="background: url(img/bg-showcase-2.jpg) no-repeat; background-size: cover; height: 400px;"></div>
+            <div class="col-6 my-auto">
+                <div class="w-75  m-auto">
+                    <h3 class="fw-bold">Updated For Bootstrap 5</h3>
+                    <p class="fs-5 fw-light"> Newly improved, and full of great utility classes, Bootstrap 5 is leading the way in mobile responsive web development! All of the themes on Start Bootstrap are now using Bootstrap 5!</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-6 my-auto">
+                <div class="w-75  m-auto">
+                    <h3 class="fw-bold">Easy to Use & Customize</h3>
+                    <p class="fs-5 fw-light">Landing Page is just HTML and CSS with a splash of SCSS for users who demand some deeper customization options. Out of the box, just add your content and images, and your new landing page will be ready to go!</p>
+                </div>
+            </div>
+            <div class="col-6" style="background: url(img/bg-showcase-3.jpg) no-repeat; background-size: cover; height: 400px;"></div>
+        </div>
+
+    </div>
+
+    <div class="bg-light">
+        <div class="container text-center py-5">
+            <h2 class="mb-5">What people are saying...</h2>
+
+            <div class="row">
+                <div class="col-4 text-center px-3">
+                    <img src="img/testimonials-1.jpg" class="rounded-circle w-50" alt="">
+                    <h5>Margaret E.</h5>
+                    <p>"This is fantastic! Thanks so much guys!"</p>
+                </div>
+
+                <div class="col-4 text-center px-3">
+                    <img src="img/testimonials-2.jpg" class="rounded-circle w-50" alt="">
+                    <h5>Fred S.</h5>
+                    <p class="px-5">"Bootstrap is amazing. I've been using it to create lots of super nice landing pages."</p>
+                </div>
+
+                <div class="col-4 text-center px-3">
+                    <img src="img/testimonials-3.jpg" class="rounded-circle w-50" alt="">
+                    <h5>Sarah W.</h5>
+                    <p class="px-5">"Thanks so much for making these free resources available to us!"</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="background p-5">
+        <div class="w-50 mx-auto text-center position-relative">
+            <div class="row">
+                <h1 class="text-white py-5" style="font-size: 2.3rem;">Ready to get started? Sign up now!</h1>
+            </div>
+
+            <div class="row px-3 pb-5">
+                <div class="col">
+                    <input type="text" name="" id="" class="form-control fs-4">
+                </div>
+                <div class="col-auto">
+                    <button class="btn btn-primary fs-4" type="submit"> Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container py-3">
+        <div class="row">
+            <div class="col">
+                <ul class="list-inline mb-2">
+                    <li class="list-inline-item"><a href="#">About</a></li>
+                    <li class="list-inline-item"><a href="#">Contact</a></li>
+                    <li class="list-inline-item"><a href="#">Terms of Use</a></li>
+                    <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+                </ul>
+                <p class="text-secondary">&copy; Your Website 2023. All Rights Reserved.</p>
+            </div>
+            <div class="col-auto">
+                <a href="#" class="px-2"><i class="bi-facebook fs-3"></i></a>
+                <a href="#" class="px-2"><i class="bi-twitter fs-3"></i></a>
+                <a href="#" class="px-2"><i class="bi-instagram fs-3"></i></a>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+
+</html>
